@@ -5,9 +5,10 @@
 /**
  * main - Entry point
  *
- * Description:desctrip nummer (n) is number greater or less from Zero
+ * Description: print the value of n status :
+ *              greater than, is Zero and is not less than 6.
  *
- * Return: alawys 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
