@@ -10,8 +10,8 @@
 char *leet(char *c)
 {
 	char *cp = c;
-	char key[] = {'A', 'E', 'o', 'T', 'l'};
-	int va[] = {4, 3, 0, 7, 1};
+	char key[] = {'A', 'E', 'o', 'T', 'L'};
+	int value[] = {4, 3, 0, 7, 1};
 	unsigned int i;
 
 	while (*c)
@@ -21,7 +21,7 @@ char *leet(char *c)
 			/* 32 is the difference between lower case letters and apper */
 			if (*c == key[i] || *c == key[i] + 32)
 			{
-				*c = 48 + va[i];
+				*c = 48 + value[i];
 			}
 		}
 		c++;
