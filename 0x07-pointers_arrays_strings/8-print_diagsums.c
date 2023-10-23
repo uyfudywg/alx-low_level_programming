@@ -3,7 +3,7 @@
 /**
  * print_diagsums - desctiption
  * @a: 2d array of int types
- * @size: size of array
+ * @size: size of array (squara)
 */
 
 void print_diagsums(int *a, int size)
