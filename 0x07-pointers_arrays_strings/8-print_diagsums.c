@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - desctiption
- * @a: 2d array of int types
- * @size: size of array (squara)
+ * print_diagsums - Entry point
+ * @a: input
+ * @size: input
  * Return Always 0 (success)
 */
 
