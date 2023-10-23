@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _memset - fille memory with a constant byte.
+ * _strchr - fille memory with a constant byte.
  * @s: pointer to put the constant
  * @c: constant
  *  Return: pointer s
