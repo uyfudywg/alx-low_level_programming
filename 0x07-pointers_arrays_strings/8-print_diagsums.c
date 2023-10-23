@@ -4,6 +4,7 @@
  * print_diagsums - desctiption
  * @a: 2d array of int types
  * @size: size of array (squara)
+ * Return Always 0 (success)
 */
 
 void print_diagsums(int *a, int size)
