@@ -1,27 +1,34 @@
+
 #include "main.h"
 
+
 /**
- * _strstr - Entry point
- * @haystack: input
- * @needle: imput
- * Return: Always 0 (success)
-*/
+  * _strstr - main function
+  *
+  * @needle: function parameter
+  *
+  * @haystack: function parameter
+  *
+  * Return: Always 0.
+  */
 
 char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
-		char *one = haystack;
-		char *two = needle;
+		char *I = haystack;
+		char *P = needle;
 
-		while (*one == *twe && *twe != '\0')
+		while (*I == *P && *P != '\0')
 		{
-			one++;
-			two++;
+			I++;
+			P++;
 		}
-		if (*two == '\0')
-			return (haystack);
+		if (*P == '\0')
+		return (haystack);
+
 	}
-	return (NULL);
+
+	return (0);
 
 }
