@@ -4,7 +4,7 @@
  *
  * @str: string paramater to print
  *
- * REturn: nothing
+ * Return: void
 */
 
 void _puts(char *str)
