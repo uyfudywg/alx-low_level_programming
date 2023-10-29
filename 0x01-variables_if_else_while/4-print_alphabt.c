@@ -3,20 +3,23 @@
 /**
  * main -Entry point
  *
- * Description: print all aplhabet letters except q and e 
+ * Description: print all aplhabet letters except q and e
  *
  * Return: always 0 (success)
 */
-int main (void)
+int main(void)
 {
 	char ch = 'a';
 
-	while(ch <= 'z')
+	while (ch <= 'z')
 	{
-		if (ch=='q' || ch ='e')
-	
-	
+		if (ch == 'q' || ch == 'e')
+			ch++;
+		putchar (ch);
+		ch++;
 	}
+	putchar('\n');
+	return (0);
 
 
 
