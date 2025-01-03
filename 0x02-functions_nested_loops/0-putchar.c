@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: prints _putchar using putchar prototyoe
+ * Description:: prints _putchar using putchar prototyoe
  *
  * Return: Always 0 (success)
 */
